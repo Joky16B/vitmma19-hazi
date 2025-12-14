@@ -1,0 +1,9 @@
+# Dependencies for AnkleAlign image classification project
+# Note: PyTorch and torchvision are pre-installed in the Docker base image
+# For local development with uv, see pyproject.toml
+
+pandas>=2.3.3
+pillow>=10.0.0
+scikit-learn>=1.8.0
+matplotlib>=3.10.8
+torchinfo>=1.8.0
