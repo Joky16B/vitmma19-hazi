@@ -32,6 +32,7 @@ Follow these steps for the data preparation part of the process:
     - In `H51B9J.json`, remove the `_H51B9J` suffix from all image filenames (use Ctrl + F → Replace All).
     - In the `NC1O2T` folder, extract images from subfolders to the main folder and delete the empty subfolders.
     - In `project-2-at-2025-10-16-02-08-8ee4fdfa.json` in the `ODZF0M` folder, ensure label names match the standard format: `1_Pronacio`, `2_Neutralis`, or `3_Szupinacio`.
+    - Delete the `ECSGGY` and `GI9Y8B` folders since these don't have a JSON file.
 
 **Note:** These manual steps are only necessary when the data does not follow the expected structure. Manual editing was chosen over implementing multiple special-case exceptions in the code for better maintainability.
 
